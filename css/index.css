@@ -156,3 +156,16 @@ hr {
 	justify-self: flex-end;
 	width: 1024px;
 }
+
+footer, footer h2, footer address .street, footer address .city, footer address a {
+	display: block;
+	text-align: left;
+}
+
+footer address a {
+	margin: auto;
+}
+
+footer h3{
+	text-align: center;
+}
