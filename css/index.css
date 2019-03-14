@@ -85,6 +85,10 @@ header{
 	align-items: flex-start;
 }
 
+.logo-mobi{
+	display: none;
+}
+
 nav {
 	width: 650px;
 	text-align: center;
@@ -168,4 +172,14 @@ footer address a {
 
 footer h3{
 	text-align: center;
+}
+
+@media screen and (max-width: 800px){
+	.logo-mobi{
+		display: block;
+	}
+
+	.logo {
+		display: none;
+	}
 }
